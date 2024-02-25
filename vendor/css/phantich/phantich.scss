@@ -1,0 +1,39 @@
+#phantich {
+  flex: 1 0 auto;
+  background-color: #e0e0e0;
+  h1 {
+    text-align: center;
+    margin: 10px 0px;
+    padding-bottom: 7px;
+    border-bottom: solid 1px #d1d1d1;
+  }
+  span {
+    color: #000;
+  }
+  .phantich_wrap {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      #msdv_loc {
+        width: 400px;
+      }
+      #ngay_div {
+        display: flex;
+        border-radius: 5px;
+        .datepicker_phantich {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    .content {
+      margin-top: 20px;
+      max-height: 600px;
+      overflow-y: scroll;
+    }
+  }
+}

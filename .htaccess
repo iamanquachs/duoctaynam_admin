@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule "index.html" "index.php" 
+
+
+RewriteRule "^([a-zA-Z0-9-]+)$" "?components=$1"
+RewriteRule "^items-edit?([a-zA-Z0-9-]+).html$" "?components=items-edit&mshh=$1"
+RewriteRule "^taophieu?([a-zA-Z0-9-]+).html$" "?components=taophieu&soct=$1"
+RewriteRule "^update-seller?([a-zA-Z0-9-]+).html$" "?components=update-seller&soct=$1"
+RewriteRule "^create-seller?([a-zA-Z0-9-]+).html$" "?components=create-seller&soct=$1"
+
+
+
+
+

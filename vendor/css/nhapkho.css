@@ -1,0 +1,137 @@
+.nhapkho{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+.form_chitiethoadon{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_taophieu{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 7px ;
+    color: #fff;
+}
+
+.btn_capnhat{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 7px ;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.btn_xoa{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 7px ;
+    color: #fff;
+    margin-left: 5px;
+
+}
+.btn_huy{
+    background-color: #bfbfbf;
+    border: none;
+    border-radius: 5px;
+    padding: 7px  20px;
+    color: #000;
+
+}
+.btn_luuphieu{
+    background-color: rgb(249, 158, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 7px ;
+    color: #fff;
+
+}
+.filter_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.input_search{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.input_add{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 150px;
+    text-align: end;
+}
+.input_add:focus{
+    outline: none;
+}
+.input_search:focus{
+    outline: none;
+}
+.select_seach{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.__date{
+    margin-left: 20px;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.btn_chon{
+    border: none;
+    background-color: rgb(5, 97, 5);
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.select_add{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.input_right{
+    display: flex;
+    align-items: end;
+}
+.form_input_right_add{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.select_chietkhau:focus{
+    outline: none;
+}
+.chitiet_hosohanghoa:hover{
+    cursor: pointer;
+    background-color: #e9e8e8;
+}
+.item_hoadon_chuanhap{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff !important;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+.item_hoadon_chuanhap a{
+    color: #fff !important;
+}
+.item_hoadon_chuanhap span:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(1, 95, 1);
+}
+.item_nhapkho_header:hover{
+    cursor: pointer;
+}
+.item_nhapkho:hover{
+    background-color: #bfbfbf;
+    cursor: pointer;
+}
